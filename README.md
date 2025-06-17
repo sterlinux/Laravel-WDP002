@@ -21,3 +21,6 @@ Alcuni comandi importanti per eseguire le operazioni da terminale sono le seguen
 > **docker compose run --rm artisan make:model Product –migration**
 
 > **docker compose run --rm artisan make:command TestCommand**
+
+
+E tanti altri comandi.
