@@ -11,3 +11,10 @@ Nel progetto troverai tutti i file docker che ti permetteranno di avere
 Per avviare il tutto basta eseguire questo comando:
 
 > docker compose up
+
+Alcuni comandi importanti per eseguire le operazioni da terminale sono le seguenti:
+
+> **docker compose run --rm  artisan**
+> **docker compose run --rm  artisan migrate**
+> **docker compose run --rm artisan make:model Product –migration**
+> **docker compose run --rm artisan make:command TestCommand**
